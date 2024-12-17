@@ -1,6 +1,5 @@
 //1. Write a program that declares two integer variables and perform basic arithmetic operations (addition, subtraction, multiplication, division) on them. Print the results to the console.
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Operations {
@@ -37,9 +36,9 @@ public class Operations {
 
         double area = (altura*largura);
 
-        String resultadoFormatado = String.format("%.2f", area);
+        //String resultadoFormatado = String.format("%.2f", area);
 
-        System.out.println("Área: "  + resultadoFormatado);
+        System.out.printf("%.2f%n", area);
 
         //double numero= 10.00;
         ////DecimalFormat formato = new DecimalFormat("#.##");      
